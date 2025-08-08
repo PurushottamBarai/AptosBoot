@@ -1,0 +1,17 @@
+[package]
+name = "file_storage_project"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x482034f6d001afea78e05803422d163b22489e2c0e5a1bf5c4039b652c101d5d"
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
